@@ -2,23 +2,60 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>我喜欢的歌手-周杰伦</title>
+	<title>歌手卡片</title>
 	<link rel="stylesheet" href="style/mystyle.css" media="screen" title="no title" charset="utf-8">
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-<body>
-	<header>
-		<h1>华语男歌手</h1>
-		<ul>
-			<li>周杰伦</li>
-			<li>陈奕迅</li>
-		</ul>
-	</header>
+	<div class="container">
+		<!-- 歌手卡片介绍 -->
+		<div class="row">
+			<h3>歌手卡片</h3>
+			<em>尝试使用bootstrap框架，制作几位本人比较喜欢的歌手卡片</em>
+			<hr>
+		</div>
 
-<img src="img/j.jpeg" alt="zhoujielun">
-<div>
-	周杰伦是我很喜欢的华语男歌手之一，他的歌曲影响了我们这一批的小伙伴。知道他是因为《双截棍》这首歌曲，当时并不是觉得好听，只是觉得这种旋律的音乐第一次听到，非常的有趣和好玩，但是随着之后他的歌曲越来越多，我越来越喜欢他的音乐。一开始喜欢的是青花瓷，后来对他有一些了解之后开始慢慢听他之前的歌曲，像是《甜甜的》、《爱在西元前》、《爱我别走》、《蒲公英的约定》等等。不知不觉他已经陪伴我走过了好几年，他也结婚有了家庭，希望他越来越好！
+		<!-- 华语男歌手卡片 -->
+		<div class="card1">
+		<div class="row">
+			<h4 class="bg-primary">华语男歌手</h4>
+		</div>
 
-</div>
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-6">
+				<img src="./img/j.jpeg" alt="周杰伦" class="img-responsive img-rounded">
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6">
+				<h4 class="bg-success">周杰伦</h4>
+				<span>周杰伦（Jay Chou），华语流行男歌手、演员、词曲创作人、MV及电影导演、编剧及制作人。
+					2000年被吴宗宪发掘并推出首张专辑《Jay》；2001年发行专辑《范特西》逐步奠基其在亚洲流行
+					乐坛地位；2002年在中国、新加坡、马来西亚、美国等地举办首场个人世界巡回演唱会；2003年登
+					上美国《时代周刊》亚洲版封面人物。
+				</span>
+			</div>
+		</div>
 
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-6">
+				<img src="./img/c.jpg" alt="陈奕迅" class="img-responsive img-rounded">
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6">
+				<h4 class="bg-success">陈奕迅</h4>
+				<span>陈奕迅（Eason Chan），1974年7月27日出生于香港，中国香港流行男歌手、演员，毕业于英国金斯顿大学。
+					1995年因获得第14届新秀歌唱大赛冠军而正式出道。2010年凭借剧情片《金钱帝国》获得星光大典港台年度电影男演员奖。2011年成立个人音乐制作公司EAS
+					 MUSIC。2015年凭借专辑《米·闪》获得第26届台湾金曲奖最佳国语男歌手奖。2016年举行“Another Eason's LIFE
+					 世界巡回演唱会”。2017年5月18日发行国语EP《放&披风》，包含两首全新国语双单曲《放》和《披风》。
+				</span>
+			</div>
+		</div>
+		<hr>
+		</div>
+	</div>
 </body>
 </html>
