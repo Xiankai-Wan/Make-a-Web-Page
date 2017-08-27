@@ -1,10 +1,19 @@
 * ul li{
 	list-style: none;
 }
-.row {
+ body {
+	font-size: 14px;
+}
+ .row {
 	margin-top: 20px;
 }
-img {
+ img {
 	width: 85%;
 	height: 85%;
+}
+ .des {
+	 text-indent: 2em;
+ }
+ a {
+	cursor: pointer;
 }

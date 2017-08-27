@@ -10,6 +10,9 @@
 	<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
@@ -34,11 +37,17 @@
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6">
 				<h4 class="bg-success">周杰伦</h4>
+				<div class="des">
 				<span>周杰伦（Jay Chou），华语流行男歌手、演员、词曲创作人、MV及电影导演、编剧及制作人。
 					2000年被吴宗宪发掘并推出首张专辑《Jay》；2001年发行专辑《范特西》逐步奠基其在亚洲流行
 					乐坛地位；2002年在中国、新加坡、马来西亚、美国等地举办首场个人世界巡回演唱会；2003年登
-					上美国《时代周刊》亚洲版封面人物。
+					上美国《时代周刊》亚洲版封面人物...
 				</span>
+				<!-- Button trigger modal -->
+				<a data-toggle="modal" data-target="#myModal">
+			  更多
+				</a>
+				</div>
 			</div>
 		</div>
 
@@ -48,15 +57,57 @@
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6">
 				<h4 class="bg-success">陈奕迅</h4>
+				<div class="des">
 				<span>陈奕迅（Eason Chan），1974年7月27日出生于香港，中国香港流行男歌手、演员，毕业于英国金斯顿大学。
 					1995年因获得第14届新秀歌唱大赛冠军而正式出道。2010年凭借剧情片《金钱帝国》获得星光大典港台年度电影男演员奖。2011年成立个人音乐制作公司EAS
 					 MUSIC。2015年凭借专辑《米·闪》获得第26届台湾金曲奖最佳国语男歌手奖。2016年举行“Another Eason's LIFE
 					 世界巡回演唱会”。2017年5月18日发行国语EP《放&披风》，包含两首全新国语双单曲《放》和《披风》。
 				</span>
+				<!-- Button trigger modal -->
+				<a data-toggle="modal" data-target="#myModal2">
+			  更多
+				</a>
+				</div>
 			</div>
 		</div>
 		<hr>
 		</div>
+	</div>
+			<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">更多信息</h4>
+				</div>
+				<div class="modal-body">
+					嘿嘿嘿
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default btn-primary" data-dismiss="modal">关闭</button>
+					<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Modal -->
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">更多信息</h4>
+			</div>
+			<div class="modal-body">
+				hahaha
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default btn-primary" data-dismiss="modal">关闭</button>
+				<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+			</div>
+		</div>
+	</div>
 	</div>
 </body>
 </html>
